@@ -1,0 +1,63 @@
+<template>
+  <div class="profile mt-1 mb-3">
+    <img src="../assets/me.jpg"
+         class="rounded mx-auto d-block mb-2 img-thumbnail"/>
+    <h1 class="text-center name">{{ me.name }}</h1>
+    <h2 class="text-center title">{{ me.title }}</h2>
+    <p class="ml-4">
+      <i class="fa fa-envelope mr-2" aria-hidden="true"></i>&nbsp;
+      <a :href="'mailto:'+ me.contact.email" class="">{{ me.contact.email }}</a>
+    </p>
+    <p class="ml-4">
+      <i class="fa fa-phone mr-2" aria-hidden="true"></i>&nbsp;
+      <a :href="'tel:' + me.contact.phone" class="">{{ me.contact.phone }}</a>
+    </p>
+    <p class="ml-4">
+      <i class="fa fa-map-marker mr-2" aria-hidden="true"></i> {{ me.location }}
+    </p>
+    <p class="ml-4">
+      <i class="fa fa-birthday-cake mr-2" aria-hidden="true"></i>
+      &nbsp; {{ new Date().getFullYear() - me.birth }} ans
+    </p>
+    <div class="row mt-3">
+      <div class="col-4 text-center">
+        <a :href="me.contact.github" class="">
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="col-4 text-center">
+        <a :href="me.contact.linkedin" class="">
+          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="col-4 text-center">
+        <a :href="me.contact.twitter" class="">
+          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Profil',
+  props: {
+    me: Object,
+  },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+  .profile, .profile a {
+    color: white;
+  }
+  .profile .title {
+    color: black;
+  }
+  .profile li {
+    font-size: 16px;
+  }
+
+</style>
