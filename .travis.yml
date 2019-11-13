@@ -7,10 +7,10 @@ cache: npm
 script: npm run build
 
 deploy:
-  provider: script
-  script: bash deploy.sh
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: dist
-  on:
-    branch: master
+  - provider: script
+    script: bash deploy.sh
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: dist
+    on:
+      branch: master
