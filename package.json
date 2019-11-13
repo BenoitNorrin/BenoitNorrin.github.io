@@ -1,6 +1,7 @@
 {
-  "name": "cv",
-  "version": "0.1.0",
+  "name": "resume-benoit-norrin",
+  "version": "1.0.0",
+  "description": "CV de Benoit NORRIN",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
