@@ -36,7 +36,7 @@
         </a>
       </div>
       <div class="col-3 text-center">
-        <a href="https://www.sejda.com/html-to-pdf?save-link=http://benoit.norrin.fr&viewportWidth=1440&pageSize=A3" class="">
+        <a v-on:click="generatePdf">
           <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
         </a>
       </div>
@@ -49,6 +49,22 @@ export default {
   name: 'Profil',
   props: {
     me: Object,
+  },
+  methods: {
+    generatePdf() {
+      /* eslint-disable */
+      SejdaJsApi.htmlToPdf({
+        filename: 'cv-benoit-norrin.pdf',
+        /* leave blank for one long page */
+        pageSize: 'a4',
+        publishableKey: 'api_public_209885597d6049fda058e015f219f8d6',
+        htmlCode: this.$refs.content,
+        /* url: window.location.href */
+        always: function(){
+          // PDF download should have started
+        }
+      });
+    },
   },
 };
 </script>
