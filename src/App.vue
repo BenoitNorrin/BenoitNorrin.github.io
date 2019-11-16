@@ -22,14 +22,12 @@
 </template>
 
 <script>
-// import html2pdf from 'html2pdf.js';
 import me from '../data.json';
 import Experiences from './components/Experiences.vue';
 import Profil from './components/Profil.vue';
 import Skills from './components/Skills.vue';
 import Education from './components/Education.vue';
 import Hobbies from './components/Hobbies.vue';
-
 
 export default {
   name: 'app',
@@ -44,48 +42,6 @@ export default {
     return {
       me,
     };
-  },
-  methods: {
-    generatePdf() {
-      /*
-      const element = this.$refs.content;
-      const opt = {
-        margin: 2,
-        filename: 'CV-Benoit-Norrin.pdf',
-        image: {
-          type: 'jpeg',
-          quality: 0.98,
-        },
-        html2canvas: {
-          dpi: 192,
-          scale: 6,
-          letterRendering: true,
-        },
-        jsPDF: {
-          unit: 'mm',
-          format: 'a4',
-          orientation: 'portrait',
-        },
-      };
-      html2pdf()
-        .set(opt)
-        .from(element)
-        .save();
-       */
-      /* eslint-disable */
-      SejdaJsApi.htmlToPdf({
-        filename: 'out.pdf',
-        /* leave blank for one long page */
-        pageSize: 'a4',
-        publishableKey: 'api_public_209885597d6049fda058e015f219f8d6',
-        htmlCode: this.$refs.content,
-        error: function(err) {
-          console.error(err);
-          alert('An error occurred');
-        }
-        /* eslint-enable */
-      });
-    },
   },
 };
 </script>
