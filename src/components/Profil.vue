@@ -1,7 +1,7 @@
 <template>
   <div class="profile mt-1 mb-3">
     <img src="../assets/me.jpg"
-         class="rounded mx-auto d-block mb-2 img-thumbnail"/>
+         class="rounded-circle mx-auto d-block mb-2 img-thumbnail" style="max-width: 150px;" />
     <h1 class="text-center name">{{ me.name }}</h1>
     <h2 class="text-center title">{{ me.title }}</h2>
     <p class="ml-4">
@@ -19,20 +19,25 @@
       <i class="fa fa-birthday-cake mr-2" aria-hidden="true"></i>
       &nbsp; {{ new Date().getFullYear() - me.birth }} ans
     </p>
-    <div class="row mt-3">
-      <div class="col-4 text-center">
+    <div class="row mt-3 --hide-from-pdf">
+      <div class="col-3 text-center">
         <a :href="me.contact.github" class="">
           <i class="fa fa-github fa-2x" aria-hidden="true"></i>
         </a>
       </div>
-      <div class="col-4 text-center">
+      <div class="col-3 text-center">
         <a :href="me.contact.linkedin" class="">
           <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
         </a>
       </div>
-      <div class="col-4 text-center">
+      <div class="col-3 text-center">
         <a :href="me.contact.twitter" class="">
           <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="col-3 text-center">
+        <a href="https://www.sejda.com/html-to-pdf?save-link=http://benoit.norrin.fr&viewportWidth=1440&pageSize=A3" class="">
+          <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
         </a>
       </div>
     </div>
