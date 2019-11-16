@@ -36,7 +36,7 @@
         </a>
       </div>
       <div class="col-3 text-center">
-        <a v-on:click="generatePdf" :style="{ cursor: 'pointer'}">
+        <a href="https://www.sejda.com/html-to-pdf?save-link=http://benoit.norrin.fr" class="">
           <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
         </a>
       </div>
@@ -58,7 +58,7 @@ export default {
         /* leave blank for one long page */
         pageSize: 'a4',
         publishableKey: 'api_public_209885597d6049fda058e015f219f8d6',
-        htmlCode: document.querySelector('html').innerHTML,
+        htmlCode: document.querySelector('html'),
         /* url: window.location.href */
         always: function(){
           // PDF download should have started
