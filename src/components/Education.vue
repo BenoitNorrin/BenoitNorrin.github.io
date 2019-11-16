@@ -1,5 +1,5 @@
 <template>
-  <div class="education mb-5">
+  <div class="education mt-5">
     <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Formations</h2>
     <dl class="text-white">
       <template v-for="(formation, index) in education" >

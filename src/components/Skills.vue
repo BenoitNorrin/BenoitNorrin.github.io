@@ -1,5 +1,5 @@
 <template>
-  <div class="skills mb-5">
+  <div class="skills">
     <h2 class="text-black"><i class="fa fa-briefcase" aria-hidden="true"></i> Compétences</h2>
     <template v-for="(group, index) in skills">
       <h3 :key="`name-${index}`" class="text-white">{{ group.name }}</h3>
