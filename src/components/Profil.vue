@@ -52,13 +52,14 @@ export default {
   },
   methods: {
     generatePdf() {
+      console.log(this.$refs.html);
       /* eslint-disable */
       SejdaJsApi.htmlToPdf({
         filename: 'cv-benoit-norrin.pdf',
         /* leave blank for one long page */
         pageSize: 'a4',
         publishableKey: 'api_public_209885597d6049fda058e015f219f8d6',
-        htmlCode: this.$refs.content,
+        htmlCode: document.querySelector('html').innerHTML,
         /* url: window.location.href */
         always: function(){
           // PDF download should have started
