@@ -131,4 +131,8 @@ export default {
     border: 1px solid #ffc107;
     border-radius: 5px;
   }
+  .with-page-break {
+    page-break-before: always;
+    page-break-after: always;
+  }
 </style>
