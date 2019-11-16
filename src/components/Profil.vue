@@ -36,7 +36,7 @@
         </a>
       </div>
       <div class="col-3 text-center">
-        <a v-on:click="generatePdf">
+        <a v-on:click="generatePdf" :style="{ cursor: 'pointer'}">
           <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
         </a>
       </div>
@@ -52,7 +52,6 @@ export default {
   },
   methods: {
     generatePdf() {
-      console.log(this.$refs.html);
       /* eslint-disable */
       SejdaJsApi.htmlToPdf({
         filename: 'cv-benoit-norrin.pdf',
