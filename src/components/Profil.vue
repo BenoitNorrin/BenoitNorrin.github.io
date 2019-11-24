@@ -1,7 +1,7 @@
 <template>
   <div class="profile mt-1 mb-3">
-    <img src="../assets/me.jpg"
-         class="rounded-circle mx-auto d-block mb-2 img-thumbnail" style="max-width: 150px;" />
+    <img src="../assets/me.png" style="max-width: 150px;"
+         class="rounded bg-transparent mx-auto d-block mb-2 img-thumbnail" />
     <h1 class="text-center name">{{ me.name }}</h1>
     <h2 class="text-center title">{{ me.title }}</h2>
     <p class="ml-4">
