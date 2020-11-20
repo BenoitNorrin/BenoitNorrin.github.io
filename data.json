@@ -12,7 +12,7 @@
       "description": "Quelques exemples d'interventions au cours de ces dernières années :",
       "list": [
         "PHP\nConception et maintenance d’applications PHP avec ou sans Framework (ZF1, Symfony2/3/4, etc). SSO (php-cas, OpenID), Javabridge (Zend), Composer, Limesurvey, WebCalendar, etc. Webservice REST / SOAP / JSON.",
-        "VueJS\nRéalisation d'une IHM avec VueJS, connectée à une gestion de processus métier (jBPM). L'ihm se connectant à un backend en websocket et réagissant aux événements poussés.",
+        "VueJS / Nuxt.js\nRéalisation d'applications avec VueJS avec ou sans Nuxt.js.",
         "Docker\nRéalisation de stack application - legacy ou nouvelle -  (architecture des repos, construction d'image, bonnes pratiques, etc). Certification \"Introduction to Docker\" par Jérome Petazonni de Docker Inc.",
         "Orchestrateur Docker\nMise en place d'un cluster Docker Swarm / UCP (10 workers, 3 managers) destiné à héberger une centaine d'application. Stack de centralisation des logs (ELK), de monitoring (Prometheus). Développement d'une application de livraison branchée sur UCP et en lien avec Git.",
         "Devops\nConception d'une plateforme de livraison automatique à l'aide d'Ansible et de JSF Printfaces. Mise en place et configuration des outils d'une CI (Gitlab, Jnenkins, Nexus). Règles d'utilisation Git.",
