@@ -1,6 +1,6 @@
 {
   "name": "Benoit NORRIN",
-  "title": "Développeur FullStack",
+  "title": "Développeur FullStack Devops",
   "location": "Limoges (+ remote)",
   "birth": 1983,
   "presentation": "Passionné et Freelance depuis 2007, j'ai aujourd'hui une expérience importante dans de nombreux domaines techniques. Développeur sénior polyvalent, je suis en capacité d'architecturer des projets complexes, d'intervenir sur du legacy ou de concevoir des prototypes. Appréhender de nouveaux outils ne me fait pas peur, intuitivement je sais quoi chercher et où le chercher. Ces dernières années mes interventions ont essentiellement été autour du monde PHP & JS (Symfony, Zend, Typo3, VueJS) et Develops (CI, Cluster Docker, etc).\n",
@@ -11,6 +11,7 @@
       "timeperiod": "depuis Janvier 2007",
       "description": "Quelques exemples d'interventions au cours de ces dernières années :",
       "list": [
+        "Migrations GCP vers Docker Swarm\nRapatriement de sites hébergés sur Kubernetes vers des clusters Docker Swarm avec build et déploiement automatique (Gitlab)",
         "PHP\nConception et maintenance d’applications PHP avec ou sans Framework (ZF1, Symfony2/3/4, etc). SSO (php-cas, OpenID), Javabridge (Zend), Composer, Limesurvey, WebCalendar, etc. Webservice REST / SOAP / JSON.",
         "VueJS / Nuxt.js\nRéalisation d'applications avec VueJS avec ou sans Nuxt.js.",
         "Docker\nRéalisation de stack application - legacy ou nouvelle -  (architecture des repos, construction d'image, bonnes pratiques, etc). Certification \"Introduction to Docker\" par Jérome Petazonni de Docker Inc.",
@@ -102,10 +103,13 @@
           "name": "ZF 1 & Symfony 2/3/4",
           "level": 95
         },
-
         {
           "name": "Docker, Swarm",
           "level": 95
+        },
+        {
+          "name": "VueJS",
+          "level": 75
         },
         {
           "name": "Jenkins, Gitlab-CI",
