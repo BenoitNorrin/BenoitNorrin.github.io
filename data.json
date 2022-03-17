@@ -11,6 +11,7 @@
       "timeperiod": "depuis Janvier 2007",
       "description": "Quelques exemples d'interventions au cours de ces dernières années :",
       "list": [
+        "Développement d'un parapheur électronique permettant de signer des documents selon des workflows utilisateurs. Les briques techniques sont Symfony 5 + API Platform avec un front en ReactJS",
         "Migrations GCP vers Docker Swarm\nRapatriement de sites hébergés sur Kubernetes vers des clusters Docker Swarm avec build et déploiement automatique (Gitlab)",
         "PHP\nConception et maintenance d’applications PHP avec ou sans Framework (ZF1, Symfony2/3/4, etc). SSO (php-cas, OpenID), Javabridge (Zend), Composer, Limesurvey, WebCalendar, etc. Webservice REST / SOAP / JSON.",
         "VueJS / Nuxt.js\nRéalisation d'applications avec VueJS avec ou sans Nuxt.js.",
@@ -100,12 +101,16 @@
       "name": "Outils",
       "scopes": [
         {
-          "name": "ZF 1 & Symfony 2/3/4",
+          "name": "ZF 1 & Symfony 2/3/4/5",
           "level": 95
         },
         {
           "name": "Docker, Swarm",
           "level": 95
+        },
+        {
+          "name": "ReactJS",
+          "level": 75
         },
         {
           "name": "VueJS",
