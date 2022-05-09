@@ -4,7 +4,7 @@
          class="rounded bg-transparent mx-auto d-block mb-2 img-thumbnail" />
     <h1 class="text-center name">{{ me.name }}</h1>
     <h2 class="text-center title">{{ me.title }}</h2>
-    <p class="ml-4">
+    <p class="ml-4 ">
       <i class="fa fa-envelope mr-2" aria-hidden="true"></i>&nbsp;
       <a :href="'mailto:'+ me.contact.email" class="">{{ me.contact.email }}</a>
     </p>
@@ -19,7 +19,7 @@
       <i class="fa fa-birthday-cake mr-2" aria-hidden="true"></i>
       &nbsp; {{ new Date().getFullYear() - me.birth }} ans
     </p>
-    <div class="row mt-3 --hide-from-pdf">
+    <div class="row mt-3 --hide-from-pdf d-print-none">
       <div class="col-3 text-center">
         <a :href="me.contact.github" class="">
           <i class="fa fa-github fa-2x" aria-hidden="true"></i>

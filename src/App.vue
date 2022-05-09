@@ -6,7 +6,7 @@
           <div class="col-md-3 sidebar">
             <Profil :me="me"/>
             <Skills :skills="me.skills" />
-            <Education :education="me.education" />
+            <!-- <Education :education="me.education" /> -->
             <Hobbies :hobbies="me.hobbies" />
           </div>
           <div class="col-md-9 main">

@@ -7,15 +7,15 @@
   "experiences": [
     {
       "company": "Freelance",
-      "position": "Developpeur FullStack",
+      "position": "Développeur FullStack",
       "timeperiod": "depuis Janvier 2007",
       "description": "Quelques exemples d'interventions au cours de ces dernières années :",
       "list": [
-        "Développement d'un parapheur électronique permettant de signer des documents selon des workflows utilisateurs. Les briques techniques sont Symfony 5 + API Platform avec un front en ReactJS",
+        "React.JS / API Platform\nDéveloppement d'un parapheur électronique permettant de signer des documents selon des workflows utilisateurs",
         "Migrations GCP vers Docker Swarm\nRapatriement de sites hébergés sur Kubernetes vers des clusters Docker Swarm avec build et déploiement automatique (Gitlab)",
-        "PHP\nConception et maintenance d’applications PHP avec ou sans Framework (ZF1, Symfony2/3/4, etc). SSO (php-cas, OpenID), Javabridge (Zend), Composer, Limesurvey, WebCalendar, etc. Webservice REST / SOAP / JSON.",
+        "PHP\nConception et maintenance d’applications PHP avec ou sans Framework Symfony2/3/4/5. SSO (php-cas, OpenID), Javabridge (Zend), Génération de librairies OpenAPI, etc.",
         "VueJS / Nuxt.js\nRéalisation d'applications avec VueJS avec ou sans Nuxt.js.",
-        "Docker\nRéalisation de stack application - legacy ou nouvelle -  (architecture des repos, construction d'image, bonnes pratiques, etc). Certification \"Introduction to Docker\" par Jérome Petazonni de Docker Inc.",
+        "Docker\nRéalisation de stack applicative - legacy ou nouvelle -  (architecture des repos, construction d'image, bonnes pratiques, etc). Certification \"Introduction to Docker\" par Jérome Petazonni de Docker Inc.",
         "Orchestrateur Docker\nMise en place d'un cluster Docker Swarm / UCP (10 workers, 3 managers) destiné à héberger une centaine d'application. Stack de centralisation des logs (ELK), de monitoring (Prometheus). Développement d'une application de livraison branchée sur UCP et en lien avec Git.",
         "Devops\nConception d'une plateforme de livraison automatique à l'aide d'Ansible et de JSF Printfaces. Mise en place et configuration des outils d'une CI (Gitlab, Jnenkins, Nexus). Règles d'utilisation Git.",
         "TYPO3\nCertifié TYPO3 CMS Integrator. Réalisation de nombreux sites : intégration, conception d’extensions, maintenance",
@@ -30,7 +30,7 @@
     },
     {
       "company": "TimGroup",
-      "position": "Developpeur FullStack - Associé",
+      "position": "Développeur FullStack - Associé",
       "timeperiod": "depuis January 2016",
       "description": "TimGroup est une structure de type SARL regroupant quelque 6 développeurs et experts. Nos profils complémentaires nous permettent d’intervenir dans un périmètre très large, chacun d’entre-nous pouvant s’inscrire dans une démarche full-stack. Cette pluridisciplinarité et ce fonctionnement nous permet de garantir à nos clients une meilleure réactivité ainsi qu’une certaine sécurité quant à l’aboutissement de leurs projets digitaux. Nos compétences vont du backend (Java / JEE, Apache Camel Servicemix, WebServices SOAP REST, jBPM), au frontend web (VueJS, TYPO3, Symfony, intégration) ou mobile (native iOS/Android ou flutter), sans oublier l’aspect devops (intégration continue, cluster Docker).",
       "website": "http://www.timgroup.fr"
@@ -82,18 +82,6 @@
         {
           "name": "Javascript",
           "level": 80
-        },
-        {
-          "name": "Html / CSS",
-          "level": 90
-        },
-        {
-          "name": "Python",
-          "level": 50
-        },
-        {
-          "name": "Java",
-          "level": 40
         }
       ]
     },
@@ -101,7 +89,7 @@
       "name": "Outils",
       "scopes": [
         {
-          "name": "ZF 1 & Symfony 2/3/4/5",
+          "name": "Symfony 2/3/4/5",
           "level": 95
         },
         {
@@ -118,7 +106,7 @@
         },
         {
           "name": "Jenkins, Gitlab-CI",
-          "level": 60
+          "level": 70
         },
         {
           "name": "Talend Open Studio",
@@ -153,26 +141,14 @@
         {
           "name": "WordPress",
           "level": 80
-        },
-        {
-          "name": "Django",
-          "level": 60
         }
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "best-resume-ever",
-      "platform": "Vue",
-      "description": "👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.",
-      "url": "https://github.com/salomonelli/best-resume-ever"
     }
   ],
   "hobbies": [
     "Geeker ... :)",
     "Moto (Norvège, Autriche, etc)",
-    "Karaté (2e dan)",
+    "Karaté, Krav Maga",
     "Montage / Snowboard"
   ],
   "contact": {
