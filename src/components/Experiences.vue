@@ -1,10 +1,7 @@
 <template>
   <div class="experiences mb-5">
     <ul class="timeline">
-      <li
-          v-for="(experience, index) in experiences"
-          :key="`experience-${index}`"
-          class="with-page-break">
+      <li v-for="(experience, index) in experiences" :key="`experience-${index}`">
         <h3 :key="`position-${index}`">{{ experience.position }}</h3>
         <h4 :key="`company-${index}`">{{ experience.company }}
           <span v-if="experience.website">- </span>
