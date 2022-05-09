@@ -6,7 +6,7 @@
           <div class="col-md-3 sidebar">
             <Profil :me="me"/>
             <Skills :skills="me.skills" />
-            <!-- <Education :education="me.education" /> -->
+            <Education :education="me.education" />
             <Hobbies :hobbies="me.hobbies" />
           </div>
           <div class="col-md-9 main">
@@ -59,7 +59,7 @@ export default {
     /* border-right: 2px solid #dc3545; */
   }
   .sidebar {
-    background-color: #44536F;
+    background-color: #595959;
   }
   .name {
     font-size: 30px;
