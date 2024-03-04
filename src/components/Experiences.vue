@@ -7,13 +7,14 @@
           <span v-if="experience.website">- </span>
           <a v-if="experience.website" :href="experience.website">{{ experience.website }}</a>
           <small class="text-muted float-right">
-            <i class="fa fa-calendar"></i> {{ experience.timeperiod }}
+            <i class="fa fa-calendar" /> {{ experience.timeperiod }}
           </small>
         </h4>
         <p :key="`description-${index}`">{{ experience.description }}
           <ul v-if="experience.list">
-            <li v-for="(item, index) in experience.list" :key="index"
-                v-html="item.replace(/\n/g, '<br>')">
+            <li
+              v-for="(item, index) in experience.list"
+              :key="index">
               {{ item }}
             </li>
           </ul>
@@ -25,9 +26,12 @@
 
 <script>
 export default {
-  name: 'Experiences',
+  name: 'experiences-item',
   props: {
-    experiences: Array,
+    experiences: {
+      type: Array,
+      required: true,
+    },
   },
 };
 </script>
@@ -66,7 +70,7 @@ export default {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #ffc107;
+    border: 3px solid #ff8155;
     left: 10px;
     margin-top: 3px;
     width: 20px;

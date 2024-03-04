@@ -1,74 +1,53 @@
 {
   "name": "Benoit NORRIN",
-  "title": "Développeur FullStack Devops",
-  "location": "Limoges (+ remote)",
+  "title": "Développeur FullStack / Devops",
+  "location": "Limoges / remote",
   "birth": 1983,
-  "presentation": "Passionné et Freelance depuis 2007, j'ai aujourd'hui une expérience importante dans de nombreux domaines techniques. Développeur sénior polyvalent, je suis en capacité d'architecturer des projets complexes, d'intervenir sur du legacy ou de concevoir des prototypes. Appréhender de nouveaux outils ne me fait pas peur, intuitivement je sais quoi chercher et où le chercher. Ces dernières années mes interventions ont essentiellement été autour du monde PHP & JS (Symfony, Zend, Typo3, VueJS) et Develops (CI, Cluster Docker, etc).\n",
+  "presentation": "Passionné et Freelance depuis 2007, j'ai aujourd'hui une expérience importante dans de nombreux domaines techniques. Développeur sénior polyvalent, je suis en capacité d'architecturer des projets complexes, d'intervenir sur du legacy ou de concevoir des prototypes.",
   "experiences": [
     {
       "company": "Freelance",
       "position": "Développeur FullStack",
-      "timeperiod": "depuis Janvier 2007",
+      "timeperiod": "Janvier 2007",
       "description": "Quelques exemples d'interventions au cours de ces dernières années :",
       "list": [
-        "React.JS / API Platform\nDéveloppement d'un parapheur électronique permettant de signer des documents selon des workflows utilisateurs",
-        "Migrations GCP vers Docker Swarm\nRapatriement de sites hébergés sur Kubernetes vers des clusters Docker Swarm avec build et déploiement automatique (Gitlab)",
-        "PHP\nConception et maintenance d’applications PHP avec ou sans Framework Symfony2/3/4/5. SSO (php-cas, OpenID), Javabridge (Zend), Génération de librairies OpenAPI, etc.",
-        "VueJS / Nuxt.js\nRéalisation d'applications avec VueJS avec ou sans Nuxt.js.",
-        "Docker\nRéalisation de stack applicative - legacy ou nouvelle -  (architecture des repos, construction d'image, bonnes pratiques, etc). Certification \"Introduction to Docker\" par Jérome Petazonni de Docker Inc.",
-        "Orchestrateur Docker\nMise en place d'un cluster Docker Swarm / UCP (10 workers, 3 managers) destiné à héberger une centaine d'application. Stack de centralisation des logs (ELK), de monitoring (Prometheus). Développement d'une application de livraison branchée sur UCP et en lien avec Git.",
-        "Devops\nConception d'une plateforme de livraison automatique à l'aide d'Ansible et de JSF Printfaces. Mise en place et configuration des outils d'une CI (Gitlab, Jnenkins, Nexus). Règles d'utilisation Git.",
-        "TYPO3\nCertifié TYPO3 CMS Integrator. Réalisation de nombreux sites : intégration, conception d’extensions, maintenance",
-        "AngularJS / Spring\nMise en place de l’architecture technique de l’application RH de la Banque Postale. La partie frontend s’appuyant sur AngularJS, le backend sur du Spring avec des échanges REST et une authentification Oauth2. Le frontend étant modulable et se construisant avec des outils tels que Grunt et Bower. Génération de code avec Yeoman.",
-        "ELK - ElasticSearch / Kibana / Logstash\nMise en place d'une stack ELK à des fins de centralisation des logs. Conception d'une application d'émission d'alertes. Cluster ElasticSearch composé de plusieurs noeuds et d'un loadbalancer.",
-        "UI / Intégration / Découpe\nDécoupe de PSD Photoshop en HTML5 / CSS3, découpes responsive, utilisation de librairie type JQuery, JQuery-UI, Bootstrap. Création de thèmes Boostrap, Datatable, Font-Awesome, Less, Sass.",
-        "Administration système\nServeurs Linux, réalisation de scripts Fabric / Bash, utilisation basique VMWare VSpere, mise en place d'un outil de centralisation des connexions SSH (authentification, logging, génération de clé ssh)",
-        "Wordpress\nIntégration et développement de plugins pour de nombreux sites",
-        "Talend\nPrestations de migration de données avec Talend Data Integration. Plusieurs millions d’entrées Oracle traitées à l’aide de jobs relativement complexes.",
-        "Python / Django\nDéveloppement d'une nouvelle version de RoxorGamers.com sous Django. Consommation de l'API Facebook et utilisation de divers outils : South, Sentry, Celery, RabbitMQ. Création de scripts Fabric (fabfile) pour réalisation de tâches administratives et massives."
+        "Javascript / Typescript\nDéveloppement d'applications métiers via React ou VueJS\nJanvier 2007",
+        "PHP\nConception et maintenance d’applications PHP avec ou sans Framework Symfony. Backoffice sous Api Platform. SSO (php-cas, OpenID), génération de librairies OpenAP / SwaggerI, etc.",
+        "Docker\nRéalisation de stack applicative - legacy ou nouvelle - (architecture des repos, construction d'image, bonnes pratiques, build multiarch).",
+        "Orchestrateurs Docker\nMise en place de cluster Docker Swarm / UCP / Kubernetes. Stack de centralisation des logs (ELK), de monitoring (Prometheus). Migration de GCP vers Swarm.",
+        "Devops\nMise en place de règles CI pour build et déploiement automatique (Gitlab, Github, Jenkins, Nexus). Conception d'application de livraison.",
+        "TYPO3\nCertifié TYPO3 CMS Integrator. Réalisation de nombreux sites : intégration, conception d’extensions, maintenance."
       ]
     },
     {
       "company": "TimGroup",
-      "position": "Développeur FullStack - Associé",
-      "timeperiod": "depuis January 2016",
-      "description": "TimGroup est une structure de type SARL regroupant quelque 6 développeurs et experts. Nos profils complémentaires nous permettent d’intervenir dans un périmètre très large, chacun d’entre-nous pouvant s’inscrire dans une démarche full-stack. Cette pluridisciplinarité et ce fonctionnement nous permet de garantir à nos clients une meilleure réactivité ainsi qu’une certaine sécurité quant à l’aboutissement de leurs projets digitaux. Nos compétences vont du backend (Java / JEE, Apache Camel Servicemix, WebServices SOAP REST, jBPM), au frontend web (VueJS, TYPO3, Symfony, intégration) ou mobile (native iOS/Android ou flutter), sans oublier l’aspect devops (intégration continue, cluster Docker).",
+      "position": "Associé",
+      "timeperiod": "Janvier 2016",
+      "description": "TimGroup est une structure de type SARL regroupant des développeurs et experts. Nos compétences vont du backend (Java / JEE, Apache Camel Servicemix, WebServices SOAP REST, jBPM), au frontend web (React, VueJS, TYPO3, Symfony, intégration) ou mobile (native iOS/Android ou Flutter), sans oublier l’aspect devops (intégration continue, cluster docker).",
       "website": "http://www.timgroup.fr"
-    },
-    {
-      "company": "DLCube",
-      "position": "Développeur Frontend - Associé",
-      "timeperiod": "Septembre 2006 - Juillet 2014",
-      "description": "DLCube est une SSLL (Société de Services en Logiciels Libres), née du désir de 3 passionnés de Logiciels Libres de mutualiser leurs compétences, afin de :",
-      "list": [
-        "Bénéficier de la stature d'une structure plus imposante que le statutde travailleur indépendant, que nous souhaitions conserver.",
-        "Dégager du temps et des moyens afin de contribuer aux projets libres, en terme de développement, documentation, traduction.",
-        "Travailler de préférence sur des projets régionaux afin de privilégier la proximité, gage de meilleures relations humaines et d'un service plus fiable, rapide et pérenne"
-      ],
-      "website": "http://www.dlcube.com"
     },
     {
       "company": null,
       "position": "Autodidacte",
       "timeperiod": "2002 - 2006",
-      "description": "En 2002, création de RoxorGamers.com : hébergement gratuit pour joueurs en ligne sur la base de CMS PHP d'abord conçus par messoins puis ensuite via utilisation de solutions libres. 50'000 visites/jours amenant toutes les problématiques de gestion de la charge des machines, optimisation du code, de sécurisation, etc."
+      "description": "En 2002, création de RoxorGamers.com : hébergement gratuit pour joueurs en ligne sur la base de CMS PHP d'abord conçus par mes soins puis ensuite via utilisation de solutions libres. 50'000 visites/jours amenant toutes les problématiques de gestion de la charge des machines, optimisation du code, de sécurisation, etc."
     }
   ],
   "education": [
     {
+      "degree": "Introduction to Docker par de Docker Inc.",
+      "period": "Mai 2016",
+      "school": "Zenika - Jérome Petazonni"
+    },
+    {
+      "degree": "TYPO3 CMS Integrator",
+      "period": "Mai 2011",
+      "school": ""
+    },
+    {
       "degree": "DEUST Webmaster et gestionnaire d’intranet",
       "period": "2005 - 2017",
       "school": "Université de Limoges"
-    },
-    {
-      "degree": "BAC Professionnel M.R.I.M",
-      "period": "2001 - 2003",
-      "school": "Lycée Maryse Bastier - Limoges"
-    },
-    {
-      "degree": "BEP Électronique",
-      "period": "1999 - 2001",
-      "school": "Lycée Raoul Dautry - Limoges"
     }
   ],
   "skills": [
@@ -80,7 +59,7 @@
           "level": 90
         },
         {
-          "name": "Javascript",
+          "name": "Javascript / Typescript",
           "level": 80
         }
       ]
@@ -89,30 +68,29 @@
       "name": "Outils",
       "scopes": [
         {
-          "name": "Symfony 2/3/4/5",
+          "name": "Symfony",
           "level": 95
         },
         {
-          "name": "Docker, Swarm",
+          "name": "API Platform",
           "level": 95
         },
         {
-          "name": "ReactJS",
-          "level": 75
+          "name": "Docker, Swarm, Kubernetes",
+          "level": 95
+        },
+        {
+          "name": "React",
+          "level": 90
         },
         {
           "name": "VueJS",
           "level": 75
         },
         {
-          "name": "Jenkins, Gitlab-CI",
+          "name": "CI : Gitlab / Github",
           "level": 70
         },
-        {
-          "name": "Talend Open Studio",
-          "level": 80
-        },
-
         {
           "name": "Git, Subversion",
           "level": 85
@@ -144,12 +122,6 @@
         }
       ]
     }
-  ],
-  "hobbies": [
-    "Geeker ... :)",
-    "Moto (Norvège, Autriche, etc)",
-    "Karaté, Krav Maga",
-    "Montage / Snowboard"
   ],
   "contact": {
     "email": "benoit@norrin.fr",

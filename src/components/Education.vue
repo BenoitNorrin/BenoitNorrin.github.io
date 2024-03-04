@@ -1,9 +1,9 @@
 <template>
   <div class="education mt-5">
-    <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Formations</h2>
+    <h2><i class="fa fa-graduation-cap" aria-hidden="true" /> Formations</h2>
     <dl class="text-white">
-      <template v-for="(formation, index) in education" >
-        <dt :key="`degree-${index}`">{{ formation.degree }}</dt>
+      <template v-for="(formation, index) in education">
+        <dt :key="`degree-${index}`">{{ formation.degree }}></dt>
         <dd :key="`period-${index}`" class="text-white-50">
           {{ formation.period }} - {{ formation.school }}
         </dd>
@@ -14,9 +14,12 @@
 
 <script>
 export default {
-  name: 'Education',
+  name: 'education-item',
   props: {
-    education: Array,
+    education: {
+      type: Array,
+      required: true,
+    },
   },
 };
 </script>

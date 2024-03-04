@@ -1,43 +1,46 @@
 <template>
   <div class="profile mt-1 mb-3">
-    <img src="../assets/me.png" style="max-width: 150px;"
-         class="rounded bg-transparent mx-auto d-block mb-2 img-thumbnail" />
+    <img
+      alt="moi"
+      src="../assets/me.png"
+      style="max-width: 150px;"
+      class="rounded bg-transparent mx-auto d-block mb-2 img-thumbnail" />
     <h1 class="text-center name">{{ me.name }}</h1>
     <h2 class="text-center title">{{ me.title }}</h2>
     <p class="ml-4 ">
-      <i class="fa fa-envelope mr-2" aria-hidden="true"></i>&nbsp;
-      <a :href="'mailto:'+ me.contact.email" class="">{{ me.contact.email }}</a>
+      <i class="fa fa-envelope mr-2" aria-hidden="true" />&nbsp;
+      <a :href="`mailto:${me.contact.email}`" class="">{{ me.contact.email }}</a>
     </p>
     <p class="ml-4">
-      <i class="fa fa-phone mr-2" aria-hidden="true"></i>&nbsp;
-      <a :href="'tel:' + me.contact.phone" class="">{{ me.contact.phone }}</a>
+      <i class="fa fa-phone mr-2" aria-hidden="true" />&nbsp;
+      <a :href="`tel:${me.contact.phone}`" class="">{{ me.contact.phone }}</a>
     </p>
     <p class="ml-4">
-      <i class="fa fa-map-marker mr-2" aria-hidden="true"></i> {{ me.location }}
+      <i class="fa fa-map-marker mr-2" aria-hidden="true" /> {{ me.location }}
     </p>
     <p class="ml-4">
-      <i class="fa fa-birthday-cake mr-2" aria-hidden="true"></i>
+      <i class="fa fa-birthday-cake mr-2" aria-hidden="true" />&nbsp;
       &nbsp; {{ new Date().getFullYear() - me.birth }} ans
     </p>
     <div class="row mt-3 --hide-from-pdf d-print-none">
       <div class="col-3 text-center">
         <a :href="me.contact.github" class="">
-          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-github fa-2x" aria-hidden="true" />&nbsp;
         </a>
       </div>
       <div class="col-3 text-center">
         <a :href="me.contact.linkedin" class="">
-          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin fa-2x" aria-hidden="true" />&nbsp;
         </a>
       </div>
       <div class="col-3 text-center">
         <a :href="me.contact.twitter" class="">
-          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-2x" aria-hidden="true" />&nbsp;
         </a>
       </div>
       <div class="col-3 text-center">
-        <a href="https://www.sejda.com/html-to-pdf?save-link=http://benoit.norrin.fr" class="">
-          <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+        <a href="CV.pdf">
+          <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true" />
         </a>
       </div>
     </div>
@@ -46,9 +49,12 @@
 
 <script>
 export default {
-  name: 'Profil',
+  name: 'profil-item',
   props: {
-    me: Object,
+    me: {
+      type: Object,
+      required: true,
+    },
   },
   methods: {
     generatePdf() {
