@@ -1,0 +1,17 @@
+@media print {
+    body {
+        font-size: 12pt;
+        .main-wrapper {
+            .container {
+                padding: 0 !important;
+                max-width: unset !important;
+                .resume-wrapper {
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    box-shadow: unset !important;
+                }
+            }
+        }
+    }
+
+}
